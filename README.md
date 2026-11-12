@@ -1,4 +1,6 @@
 # WDM-Ex.No-3--IMPLEMENTATION-OF-APRIORI-ALGORITHM-IN-PYTHON-
+## Name : Yazhini E 
+## Reg.no.: 2305002028
 **Aim:** 
             To implement Apriori Algorithm in python. <br>
 **Implementation Steps:**
@@ -137,7 +139,7 @@ the customers that buy mushroom cream sauce, compared to its default sale.
  
  
  
-Program: 
+### Program: 
 ```import numpy as np 
 #import matplotlib.pyplot as plt 
 import pandas as pd 
@@ -163,12 +165,181 @@ for item in association_results:
  
 ```    
  
-Output: 
+### Output: 
  
- 
- <img width="337" height="557" alt="image" src="https://github.com/user-attachments/assets/e885f01c-3af3-4bfb-99c9-ef14c5a61d01" />
+ ```
+C:\Users\admin\OneDrive\Documents\Apriori>
+python apriori.py
+Dataset:
+              0   ...         19
+0         shrimp  ...  olive oil
+1        burgers  ...        NaN
+2        chutney  ...        NaN
+3         turkey  ...        NaN
+4  mineral water  ...        NaN
 
+[5 rows x 20 columns]
+
+Total transactions: 7501
+
+Total association rules: 24
+
+Rule: chicken -> light cream
+Support: 0.0045
+Association: ['light cream'] -> ['chicken']
+Confidence: 0.2906
+Lift: 4.844
+
+Rule: escalope -> mushroom cream sauce
+Support: 0.0057
+Association: ['mushroom cream sauce'] -> ['escalope']
+Confidence: 0.3007
+Lift: 3.7908
+
+Rule: pasta -> escalope
+Support: 0.0059
+Association: ['pasta'] -> ['escalope']
+Confidence: 0.3729
+Lift: 4.7008
+
+Rule: ground beef -> herb & pepper
+Support: 0.016
+Association: ['herb & pepper'] -> ['ground beef']
+Confidence: 0.3235
+Lift: 3.292
+
+Rule: ground beef -> tomato sauce
+Support: 0.0053
+Association: ['tomato sauce'] -> ['ground beef']
+Confidence: 0.3774
+Lift: 3.8407
+
+Rule: olive oil -> whole wheat pasta
+Support: 0.008
+Association: ['whole wheat pasta'] -> ['olive oil']
+Confidence: 0.2715
+Lift: 4.1224
+
+Rule: pasta -> shrimp
+Support: 0.0051
+Association: ['pasta'] -> ['shrimp']
+Confidence: 0.322
+Lift: 4.5067
+
+Rule: frozen vegetables -> chocolate -> shrimp
+Support: 0.0053
+Association: ['frozen vegetables', 'chocolate'] -> ['shrimp']
+Confidence: 0.2326
+Lift: 3.2545
+Association: ['chocolate', 'shrimp'] -> ['frozen vegetables']
+Confidence: 0.2963
+Lift: 3.1084
+
+Rule: cooking oil -> ground beef -> spaghetti
+Support: 0.0048
+Association: ['cooking oil', 'ground beef'] -> ['spaghetti']
+Confidence: 0.5714
+Lift: 3.282
+Association: ['cooking oil', 'spaghetti'] -> ['ground beef']
+Confidence: 0.3025
+Lift: 3.079
+
+Rule: frozen vegetables -> ground beef -> spaghetti
+Support: 0.0087
+Association: ['frozen vegetables', 'spaghetti'] -> ['ground beef']
+Confidence: 0.311
+Lift: 3.1653
+
+Rule: frozen vegetables -> milk -> olive oil
+Support: 0.0048
+Association: ['frozen vegetables', 'milk'] -> ['olive oil']
+Confidence: 0.2034
+Lift: 3.0883
+Association: ['frozen vegetables', 'olive oil'] -> ['milk']
+Confidence: 0.4235
+Lift: 3.2684
+
+Rule: frozen vegetables -> mineral water -> shrimp
+Support: 0.0072
+Association: ['mineral water', 'shrimp'] -> ['frozen vegetables']
+Confidence: 0.3051
+Lift: 3.2006
+
+Rule: frozen vegetables -> olive oil -> spaghetti
+Support: 0.0057
+Association: ['frozen vegetables', 'spaghetti'] -> ['olive oil']
+Confidence: 0.2057
+Lift: 3.124
+
+Rule: frozen vegetables -> shrimp -> spaghetti
+Support: 0.006
+Association: ['frozen vegetables', 'spaghetti'] -> ['shrimp']
+Confidence: 0.2153
+Lift: 3.0131
+
+Rule: frozen vegetables -> tomatoes -> spaghetti
+Support: 0.0067
+Association: ['frozen vegetables', 'spaghetti'] -> ['tomatoes']
+Confidence: 0.2392
+Lift: 3.498
+Association: ['tomatoes', 'spaghetti'] -> ['frozen vegetables']
+Confidence: 0.3185
+Lift: 3.3411
+
+Rule: grated cheese -> ground beef -> spaghetti
+Support: 0.0053
+Association: ['grated cheese', 'spaghetti'] -> ['ground beef']
+Confidence: 0.3226
+Lift: 3.2831
+
+Rule: mineral water -> ground beef -> herb & pepper
+Support: 0.0067
+Association: ['mineral water', 'herb & pepper'] -> ['ground beef']
+Confidence: 0.3906
+Lift: 3.9757
+
+Rule: ground beef -> herb & pepper -> spaghetti
+Support: 0.0064
+Association: ['herb & pepper', 'spaghetti'] -> ['ground beef']
+Confidence: 0.3934
+Lift: 4.0044
+
+Rule: milk -> olive oil -> ground beef
+Support: 0.0049
+Association: ['milk', 'ground beef'] -> ['olive oil']
+Confidence: 0.2242
+Lift: 3.4049
+
+Rule: shrimp -> ground beef -> spaghetti
+Support: 0.006
+Association: ['shrimp', 'ground beef'] -> ['spaghetti']
+Confidence: 0.5233
+Lift: 3.0053
+
+Rule: milk -> olive oil -> spaghetti
+Support: 0.0072
+Association: ['milk', 'spaghetti'] -> ['olive oil']
+Confidence: 0.203
+Lift: 3.0825
+
+Rule: olive oil -> mineral water -> soup
+Support: 0.0052
+Association: ['mineral water', 'soup'] -> ['olive oil']
+Confidence: 0.2254
+Lift: 3.423
+
+Rule: olive oil -> pancakes -> spaghetti
+Support: 0.0051
+Association: ['pancakes', 'spaghetti'] -> ['olive oil']
+Confidence: 0.2011
+Lift: 3.0529
+
+Rule: frozen vegetables -> milk -> mineral water -> spaghetti
+Support: 0.0045
+Association: ['milk', 'mineral water', 'spaghetti'] -> ['frozen vegetables']
+Confidence: 0.2881
+Lift: 3.0228
+ ```
  
- 
-Result: 
+### Result: 
              Thus, the python program for implementing Apriori Algorithm has been executed successfully. f
