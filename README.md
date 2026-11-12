@@ -167,7 +167,6 @@ for item in association_results:
  
 ### Output: 
  
- ```
 C:\Users\admin\OneDrive\Documents\Apriori>
 python apriori.py
 Dataset:
@@ -339,7 +338,7 @@ Support: 0.0045
 Association: ['milk', 'mineral water', 'spaghetti'] -> ['frozen vegetables']
 Confidence: 0.2881
 Lift: 3.0228
- ```
+ 
  
 ### Result: 
-             Thus, the python program for implementing Apriori Algorithm has been executed successfully. f
+             Thus, the python program for implementing Apriori Algorithm has been executed successfully.
